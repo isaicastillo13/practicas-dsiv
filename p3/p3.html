@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>Practica 3</title>
+</head>
+<body>
+    <div class="formulario">
+        <form onsubmit="event.preventDefault(); result();">
+            <h2 id="titulo">Formulario</h2>
+
+            <div class="datos-personales">
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text" placeholder="Pepito">
+
+                <label for="apellido">Apellido: </label>
+                <input id="apellido" type="text" placeholder="Perez">
+
+                <label for="edad">Edad: </label>
+                <input  id="edad" type="number">
+           
+                <label for="email">Correo electronico: </label>
+                <input id="email" type="email" placeholder="example@gmail.com">    
+            
+                <label for="password">Password: </label>
+                <input id="password" type="password" placeholder="**********">
+
+                <label for="repeat-password">Repeat Password</label>
+                <input id="repeat-password" type="password" placeholder="**********">
+                
+                <div id="politicas">
+                    <div>
+                        <input id="-checkbox" type="checkbox">
+                    </div>
+                    <div>
+                        <span>Acepta las condiciones de uso. la politica de privacidad y la politica de cookies de la empresa.</span>
+                    </div>
+                    
+                </div>
+                
+
+                <button id="submit-btn" type="submit" onclick="result">Registrase</button>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
