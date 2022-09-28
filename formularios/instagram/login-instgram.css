@@ -1,58 +1,89 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body{
- background-image: url("img-login.jpg");
- background-position: center;
- background-size: 400px;
+    /* background: radial-gradient(circle, rgba(193,53,132,1) 13%, rgba(225,48,108,1) 45%, rgba(253,29,29,1) 100%); */
+    background-color: rgba(38, 38, 38,.05);
 }
 
 .contenedor{
     display: flex;
-    justify-content: center;
-    /* border: solid gray 1px; */    
+    flex-direction: column;
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
-    border: solid gray;
-    padding: 30px;
-    width: 50%;
-    margin: 100px;
-    background-color:rgba(249, 249, 249,0.4);
+    align-self: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
+    margin: 24px 100px 0px;
+    margin-top:24px;
+    padding:12px;
+    width: 50%;
+    width: 350px;
+    height: auto;
+    background-color:#ffff;
 }
 
 .logo{
     width: 175px;
     height: 51px;
-    margin: 30px;
+    margin-top: 36px;
+    margin-bottom: 12px;
 }
 
 .botones{
     border-radius: 3px;
     border:none;
-    background-color: blue;
+    background-color:#0095f6;
     color: #ffff;
     font-weight: bold;
     text-align: center;
-    padding: 5px;
+    padding: 9px;
     margin: 10px;
-    width: 50%;
+    width: 70%;
 }
 
 .datos{
     width: 100%;
     padding: 8px;
     border-radius: 3px;
-    border: solid 1px;
+    border:none;
     margin: 5px;
-    width: 50%;
+    width: 70%;
+    height: 36px;
+    background: rgba(var(--b3f,250,250,250),1);
+    font-size: 12px;
 }
 
+/* .separador{
+    display: inline;
+} */
+
+
 #contraseña-olvidada{
-    align-self:center;
-    padding-left: 30%;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-weight: 100;
+    /* padding-left: 30%;
+    margin: 10px; */
 }
+
+.sin-cuenta{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 10px 100px;
+    padding:12px;
+    width: 50%;
+    width: 350px;
+    height:auto;
+    background-color:#ffff;
+}
+
